@@ -11,7 +11,7 @@ body{
 }
 .logo{
 padding: 40px 0;
-font-family: PT+Serif;
+font-family: PT Serif;
 }
 .menu{
   display: flex;
@@ -25,7 +25,7 @@ font-family: PT+Serif;
   padding-right: 0;
 }
 .main-content__title{
-  font-family: PT+Serif;
+  font-family: PT Serif;
 }
 .main-content__subtitle{
 font-family: Roboto;
