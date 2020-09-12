@@ -18,7 +18,6 @@ body{
   font: bold 24px/32px PT Serif, arial, helvetica,sans-serif;
 }
 .logo__circle{
-border: dashed 1px red;
 position: absolute;
 width: 28px;
 height: 28px;
