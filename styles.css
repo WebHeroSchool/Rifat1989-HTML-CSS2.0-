@@ -8,6 +8,7 @@ body{
 .header{
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 .logo{
   position: relative;
@@ -38,12 +39,11 @@ opacity: .7;
 .menu{
   display: flex;
   align-items: center;
- font: bold 18px/21px Roboto, arial, helvetica,sans-serif;
+ font: 500 18px/21px Roboto, arial, helvetica,sans-serif;
 }
 .menu__item{
 position: relative;
 margin-right: 26px;
-font: 500 18px/21px Roboto, helvetica, arial, sans-serif;
 color: #000;
 text-decoration: none;
 transition: .5s;
@@ -77,12 +77,30 @@ transition: .5s;
 .menu__item:hover::after, .menu__item_active::after{
   opacity: 1;
 }
+.main-content{
+  padding:0 63% 100% 0;
+  background:top right no-repeat url('imj/frame.svg');
+}
 .main-content__title{
-  font-family: PT Serif;
+margin: 0 0 40px 0;
+font: 700 50px/66px PT Serif, arial, helvetica,sans-serif;
+}
+.main-content__title-text_highlight{
+  background: #ECF3FF
 }
 .main-content__subtitle{
-font-family: Roboto;
+  margin: 0 0 41px 0;
+font: 400 18px/21px Roboto, arial, helvetica,sans-serif;
 }
 .main-content__button{
-font-family: Roboto;
+padding: 14px 16px;
+font: 500 14px/16px Roboto, arial, helvetica,sans-serif;
+color: #FFF;
+background: #0056EC;
+text-decoration: none;
+border-radius: 4px;
+transition: opasity .5s;
+}
+.main-content__button:hover{
+opacity: .5;
 }
