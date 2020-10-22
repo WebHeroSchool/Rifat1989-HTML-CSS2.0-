@@ -8,7 +8,7 @@ body{
 .header{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 100px;
+  margin-bottom: 10px;
 }
 .logo{
   position: relative;
@@ -79,7 +79,8 @@ opacity: .5;
   opacity: 1;
 }
 .main-content{
-  padding:0 58% 100% 0;
+  margin-top: 80px;
+  padding:2% 58% 100% 0;
   background: top right no-repeat url('imj/frame.svg');
 }
 .main-content__title{
@@ -94,29 +95,43 @@ font: bold 50px/66px PT Serif, arial, helvetica,sans-serif;
 font: 500 18px/21px Roboto, arial, helvetica,sans-serif;
 }
 .main-content__button{
+display: inline;
 padding: 14px 22px;
-font: 500 14px/16px Roboto, arial, helvetica,sans-serif;
-color: #FFF;
 background: #0056EC;
-text-decoration: none;
 border-radius: 4px;
 transition: opasity .5s;
+animation: animation 1.5s infinite ease alternate-reverse 5s;
 }
 .main-content__button:hover{
 opacity: .5;
+animation-play-state: paused;
 }
+.main-content__button_name {
+  font: 500 14px/16px Roboto, arial, helvetica,sans-serif;
+  text-decoration: none;
+  color: #FFF;
+}
+
+@keyframes animation {
+  to {
+  padding: 18px 28px;
+  }
+}
+
 @media (max-width: 1920px) and (min-width: 1367px) {
 .wrapper {
   width: 79.5%;
 }
 .header {
-  margin-bottom: 201px;
+  margin-bottom: 20px;
 }
 .menu {
   padding-right: 7px;
   font: 500 18px/21px Roboto, arial, helvetica,sans-serif;
 }
 .main-content {
+  margin-top: 130px;
+  padding-top: 5%;
   background-size:765px;
 }
 .main-content__title {
@@ -127,7 +142,7 @@ font: bold 66px/87px PT Serif, arial, helvetica,sans-serif;
 margin: 0 0 58px 0;
 font: 500 22px/26px Roboto, arial, helvetica,sans-serif;
 }
-.main-content__button {
+.main-content__button_name {
 padding: 17px 26px;
 font: 500 18px/21px Roboto, arial, helvetica,sans-serif;
 }
@@ -151,10 +166,11 @@ font: 500 18px/21px Roboto, arial, helvetica,sans-serif;
 width: 91%;
 }
 .header {
-margin-bottom: 97px;
+margin-bottom: 10px;
 }
 .main-content {
-padding-right: 58%;
+  margin-top: 80px;
+  padding-top: 15px;
 }
 .main-content__subtitle {
 margin-bottom: 53px;
@@ -206,6 +222,7 @@ left: 0;
 }
 .main-content {
   text-align: center;
+  margin-top: 0px;
   padding: 92% 0 0;
   background-size: 110%;
   background-position: top center;
@@ -219,7 +236,7 @@ left: 0;
   margin-bottom: 38px;
   font: 500 16px/19px Roboto, arial, helvetica,sans-serif;
 }
-.main-content__button {
+.main-content__button_name {
   font: 500 15px/16px Roboto, arial, helvetica,sans-serif;
 }
 }
