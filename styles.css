@@ -112,7 +112,7 @@ body{
 @keyframes animation {
   to {
   padding: 18px 28px;
-  }
+}
 }
 
 @media (max-width: 1920px) and (min-width: 1367px) {
