@@ -4,11 +4,12 @@ body{
 
 .wrapper{
   margin: auto;
-  width: 68%;
+  width: 67.8%;
 }
 
 .header{
   display: flex;
+  align-items: center;
   justify-content: space-between;
   margin-bottom: 10px;
 }
@@ -44,11 +45,10 @@ body{
 }
 
 #menu__toggle {
-  opacity: 0;
+  display: none;
 }
 
 .menu{
-  padding-top: 34px;
   display: flex;
   align-items: center;
   font: 500 14px/16px Roboto, arial, helvetica,sans-serif;
@@ -146,13 +146,13 @@ body{
 }
 
 .menu {
-  padding: 30px 21px 0px 0px;
+  padding: 4px 21px 0px 0px;
   font: 500 18px/21px Roboto, arial, helvetica,sans-serif;
 }
 
 .main-content {
-  margin: 127px 18px 0 0;
-  padding-top: 5%;
+  margin: 132px 18px 0 0;
+  padding-top: 72px;
   background-size:765px;
 
 }
@@ -174,14 +174,6 @@ font: bold 66px/87px PT Serif, arial, helvetica,sans-serif;
 }
 
 @media (max-width: 1366px) and (min-width: 1025px) {
-
-.wrapper {
-  width: 68%;
-}
-
-.menu {
-  padding: 5px 9px 0px 0px;
-}
 
 .main-content {
   padding-right: 58%;
@@ -215,7 +207,7 @@ font: bold 66px/87px PT Serif, arial, helvetica,sans-serif;
 @media (max-width:768px) {
 
 .wrapper {
-  width: 75%;
+  width: 73.5%;
 }
 
 .header {
@@ -223,7 +215,7 @@ font: bold 66px/87px PT Serif, arial, helvetica,sans-serif;
 }
 
 .logo{
-  margin-left: -24px;
+  margin-left: -26px;
   padding: 24px 0;
 }
 
@@ -232,10 +224,7 @@ font: bold 66px/87px PT Serif, arial, helvetica,sans-serif;
 }
 
 .menu__btn {
-  display: flex;
-  align-items: center;
   position:  fixed;
-  margin: 15px 8px 0px 17px;
   width: 25px;
   height: 17px;
   cursor: pointer;
@@ -255,12 +244,12 @@ font: bold 66px/87px PT Serif, arial, helvetica,sans-serif;
 
 .menu__btn > span::before {
   content: "";
-  top: -8px;
+  top: -7px;
 }
 
 .menu__btn > span::after {
   content: "";
-  top: 8px;
+  top: 7.5px;
 }
 
 .menu {
@@ -318,13 +307,12 @@ font: bold 66px/87px PT Serif, arial, helvetica,sans-serif;
 }
 
 .main-content__title {
-  margin-bottom: 34px;
-  font: bold 30px/40px PT Serif, arial, helvetica,sans-serif;
+  margin: 8px 0 33px 0;
+  font: bold 30px/39.75px PT Serif, arial, helvetica,sans-serif;
 }
 
 .main-content__subtitle {
-
-  margin-bottom: 38px;
+  margin-bottom: 39px;
   font: 500 16px/19px Roboto, arial, helvetica,sans-serif;
 }
 
